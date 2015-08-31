@@ -19,7 +19,7 @@ fn main() {
         let s = Socks5 {
             listen_addr: FromStr::from_str("127.0.0.1:6666").unwrap(),
         };
-        mioco.spawn(move |mioco| s.run(mioco));
+        mioco.spawn(|mioco| s.run(mioco));
         Ok(())
     });
 }

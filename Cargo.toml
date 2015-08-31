@@ -6,9 +6,11 @@ authors = ["SAPikachu <sapikachu@gmail.com>"]
 [dependencies]
 env_logger = "*"
 log = "*"
+error-type = "*"
+byteorder = "*"
 
 [dependencies.mioco]
 git = "https://github.com/dpc/mioco.git"
 
 [dependencies.mio]
-git = "https://github.com/carllerche/mio.git"
+git = "https://github.com/carllerche/mio/"
